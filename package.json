@@ -1,0 +1,36 @@
+{
+  "name": "@hyamauchi/gulp-kintone-deploy",
+  "version": "1.0.0",
+  "description": "A gulp plugin to deploy settings on kintone App",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hyamauchi/gulp-kintone-deploy.git"
+  },
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "kintone"
+  ],
+  "author": {
+    "name": "hyamauchi",
+    "url": "https://github.com/hyamauchi"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "_id": "gulp-kintone-deploy@1.0.0",
+  "_from": "gulp-kintone-deploy@",
+  "bugs": {
+    "url": "https://github.com/hyamauchi/gulp-kintone-deploy/issues"
+  },
+  "homepage": "https://github.com/hyamauchi/gulp-kintone-deploy#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "gulp-util": "^3.0.7",
+    "request": "^2.72.0",
+    "through2": "^2.0.1"
+  }
+}
